@@ -13,3 +13,11 @@
 	- 2024. 03 ~ 2024. 06
 	- 인하대학교 클라우드컴퓨팅 최종 프로젝트
 	- iOS 클라이언트 1인 / 서버 2인 / 웹 클라이언트 1인 / 클라우드 아키텍처 1인 (총 6인)
+-
+- ### index
+- {{query #TroubleShooting }}
+  query-table:: false
+  query-properties:: [:block :page]
+- {{query #TechIntroduction }}
+- {{query #Springboot }}
+- {{query #aws }}

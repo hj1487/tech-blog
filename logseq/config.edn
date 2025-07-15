@@ -421,4 +421,5 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
  :default-home {:page "Projects"}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :graph/forcesettings {:link-dist 10}}
