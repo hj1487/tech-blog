@@ -1,0 +1,14 @@
+- [[DB ORM 성능 튜닝]]
+- [[서버 테스트 코드 작성]]
+-
+- {{query #concept }}
+  query-table:: true
+-
+- ### ToDo
+- TODO JPA
+- TODO cloud native
+- TODO design patterns
+	- TODO CQRS
+-
+-
+-

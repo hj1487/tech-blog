@@ -1,3 +1,5 @@
+- [[study]]
+-
 - [[장부리치]]
 	- 2025. 06 ~
 	- 서버 2인 / 안드로이드 클라이언트 1인 / iOS 클라이언트 1인 / 기획 및 디자인 2인 (총 6인)
@@ -16,8 +18,11 @@
 -
 - ### index
 - {{query #TroubleShooting }}
-  query-table:: false
+  query-table:: true
   query-properties:: [:block :page]
 - {{query #TechIntroduction }}
+  query-table:: true
 - {{query #Springboot }}
+  query-table:: true
 - {{query #aws }}
+  query-table:: true

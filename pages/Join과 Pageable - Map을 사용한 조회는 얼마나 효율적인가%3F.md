@@ -1,0 +1,3 @@
+- Map<Long, Object[]> 방식 vs Join
+- Page 데이터를 join 이후에 적용하면 성능 저하?
+-
