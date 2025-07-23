@@ -17,12 +17,42 @@
 	- iOS 클라이언트 1인 / 서버 2인 / 웹 클라이언트 1인 / 클라우드 아키텍처 1인 (총 6인)
 -
 - ### index
-- {{query #TroubleShooting }}
-  query-table:: true
+- query-table:: true
   query-properties:: [:block :page]
-- {{query #TechIntroduction }}
+  #+BEGIN_QUERY
+  {:title [:h3 "TroubleShooting"]
+  :query [:find (pull ?b [*])
+               :where
+                [?p :block/name "troubleshooting"]
+                [?b :block/refs ?p]]
+  :group-by-page? true}
+  #+END_QUERY
+- query-sort-by:: block
   query-table:: true
-- {{query #Springboot }}
-  query-table:: true
-- {{query #aws }}
-  query-table:: true
+  query-sort-desc:: false
+  #+BEGIN_QUERY
+  {:title [:h3 "TechIntroduction"]
+  :query [:find (pull ?b [*])
+               :where
+                [?p :block/name "techintroduction"]
+                [?b :block/refs ?p]]
+  :group-by-page? true}
+  #+END_QUERY
+- query-table:: true
+  #+BEGIN_QUERY
+  {:title [:h3 "Springboot"]
+  :query [:find (pull ?b [*])
+               :where
+                [?p :block/name "springboot"]
+                [?b :block/refs ?p]]
+  :group-by-page? true}
+  #+END_QUERY
+- query-table:: true
+  #+BEGIN_QUERY
+  {:title [:h3 "AWS"]
+  :query [:find (pull ?b [*])
+               :where
+                [?p :block/name "aws"]
+                [?b :block/refs ?p]]
+  :group-by-page? true}
+  #+END_QUERY
